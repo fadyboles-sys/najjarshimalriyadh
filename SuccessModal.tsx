@@ -52,11 +52,9 @@ export const SuccessModal: React.FC<SuccessModalProps> = ({
                 
                 const labels: { [key: string]: string } = {
                   name: 'الاسم',
-                  email: 'البريد الإلكتروني',
                   phone: 'رقم الهاتف',
                   service: 'الخدمة المطلوبة',
                   message: 'تفاصيل الطلب',
-                  budget: 'الميزانية المتوقعة',
                   timeline: 'الإطار الزمني'
                 };
 
